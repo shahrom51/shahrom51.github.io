@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Introduction</title>
+	<style type="text/css">
+		body{width: 800px;
+			height: 1500px}
+		#header {			
+			background-color: yellow;
+			width: 100%
+			height: 15%;
+			text-align: center;
+		}
+		#header p {display: inline-block;
+		}
+		#name {display: block;
+			margin-left: 150px;}
+		#email {float: right;
+			margin-right: 150px;}
+		
+		.panel {
+			display: inline-block;
+			height: 75%;
+			border: 1px solid black;
+			clear: both;
+		}
+			
+		#left {
+			width: 25%;
+			background-color: lightblue;
+		}
+		
+		#right {
+			float: right;
+			width: 74%;
+			background-color: lightgreen;
+		}
+			
+		#footer {
+		width: 100%;
+		height: 10%;
+		background-color: orange;
+		text-align: center;
+	}	
+	</style>
+</head>
+
+<body>
+<a name="top"></a> 
+	<div id="header">
+		<h1>The header</h1>
+		<p id="name">My name is shahrom</p>
+		<a href="#"><p id="email"> My email is:shahromsidek@gmail.com</p></a>
+	</div>
+
+	<div class="panel" id="left">
+	left
+	<div id="menu"> 
+<ul> 
+<li><h2><a href="#intro">Intro</a></h2></li> 
+<li><h2><a href="#style">Style</a></h2></li> 
+<li><h2><a href="#source">Source</a></h2></li> 
+
+</ul> 
+</div><!--End of menu--> 
+	</div>
+
+	<div class="panel" id="right">
+	Right
+	<a name="intro"><h1>My Demo App</h1> 
+
+<table border=1><tr><td>
+Codes
+</td><td>
+Explanations
+</td></tr>
+<tr><td>
+&lt;!DOCType html&gt;
+</td><td>
+Every Html document starts with &lt;!DOCType html&gt;
+
+</td></tr>
+<tr><td>
+&lt;!DOCType html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</td><td>
+The Html document is divided into main parts enclosed in a pair of tags
+&lt;html&gt;&lt;/html&gt;
+followed by 
+&lt;head&gt;&lt;/head&gt;
+and
+&lt;body&gt;&lt;/body&gt;
+
+</td></tr>
+<tr><td>
+&lt; head&gt;
+	&lt;title&gt;&lt;/title&gt;
+	&lt;style type="text/css"&gt;&lt;/style&gt;
+&lt;/head&gt;
+</td><td>
+The head section contains the 
+title
+and style.
+
+Inside the style tags, we type the Css styles that describe the look and feel of the contents.
+</td></tr>
+<tr><td>
+
+&lt;body&gt;
+&lt;/body&gt;
+</td><td>
+Inside the tags of &lt;body&gt; &lt;/body&gt;
+we put all the contents of the web page
+</td></tr>
+<tr><td>
+&lt;body&gt;
+	&lt;div&gt;&lt;/div&gt;
+	&lt;div&gt;&lt;/div&gt;
+	&lt;div&gt;&lt;/div&gt;
+	&lt;div&gt;&lt;/div&gt;
+&lt;/body&gt;
+</td><td>
+We put different parts of contents inside different divisions of the page, inside pairs of
+&lt;div&gt;&lt;/div&gt;
+</td></tr>
+<tr><td>
+&lt;body&gt;
+&lt;div  id="header"&gt;&lt;/div&gt;
+	&lt;div class="panel"&gt;&lt;/div&gt;
+	&lt;div class="panel"&gt;&lt;/div&gt;
+	&lt;div id="footer"&gt;&lt;/div&gt;
+&lt;/body&gt;
+</td><td>
+We can identify the div individually and uniquely by using the id selector, or classify them under the same class using the class selector.
+
+Later we use these selectors to assign style to each part of document.
+</td></tr></table>
+
+<div class="top"><h4><a href="#top">Go to the top!</a></h4></div>
+
+<a name="style"><h1>About CSS Style</h1> 
+<table border=1><tr><td>
+Codes
+</td><td>
+Explanations
+</td></tr>
+<tr><td>
+&lt;head&gt;
+	&lt;title&gt;My Intro&lt;/title&gt;
+	&lt;style type="text/css"&gt;
+		body{width: 800px;
+			height: 1250px}
+		#header {			
+			background-color: yellow;
+			width: 100%
+			height: 15%;
+			text-align: center;
+			}
+		#header p {display: inline-block;
+		}
+		#name {display: block;
+			margin-left: 150px;}
+		#email {float: right;
+			margin-right: 150px;}
+		
+		.panel {
+			display: inline-block;
+			height: 75%;
+			border: 1px solid black;
+		}
+			
+
+		#left {
+			width: 25%;
+			background-color: lightblue;
+		}
+		
+		#right {
+			float: right;
+			width: 74%;
+			background-color: lightgreen;
+		}
+			
+		#footer {
+		width: 100%;
+		height: 15%;
+		background-color: orange;
+		text-align: center;
+		}	
+
+	&lt;/style&gt;
+&lt;/head&gt;
+</td><td>
+The css style can be found in an external file, 
+or inside the head section between
+&lt;style&gt; and &lt;/style&gt;
+
+The style give the look and feel to the content
+of the webpage, including color, font family, font size, font-color, and background-color, as well as external links and internal locations of the document.
+
+</td></tr></table>
+<a name="source"><h1>View Page Source</h1> 
+<p>You can always view the source codes of this page <br>
+by right clicking the webpage <br>
+and then click on the item "View Page Source"
+</p>
+<div class="top"><h4><a href="#top">Go to the top!</a></h4></div>
+	</div>
+
+	<div id="footer">Footer
+<p>Hello I the footer!</p
+	</div>
+	>
+
+</body>
+
+</html>
