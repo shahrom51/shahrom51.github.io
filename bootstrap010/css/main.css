@@ -1,0 +1,16 @@
+.jumbotron {
+	background-image: url("../image/climbing1.jpg");
+	background-repeat: no-repeat;
+	background-size: 90% 300px;
+	background-position: center;
+	color: #ffffff;
+}
+
+.picture {
+	height: 160px !important;
+	width: 300px !important;
+}
+
+.center-content {
+	text-align: center;
+}
